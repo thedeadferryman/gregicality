@@ -50,6 +50,7 @@ public class MetaTileEntityAdvancedDistillationTower extends MultiRecipeMapMulti
 
     private static final MultiblockAbility<?>[] ALLOWED_ABILITIES = {
             MultiblockAbility.IMPORT_ITEMS, MultiblockAbility.EXPORT_ITEMS,
+            MultiblockAbility.IMPORT_FLUIDS,
             MultiblockAbility.INPUT_ENERGY, GregicAdditionsCapabilities.MAINTENANCE_HATCH
     };
 
